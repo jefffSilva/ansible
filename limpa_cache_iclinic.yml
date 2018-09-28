@@ -1,6 +1,6 @@
 --- 
 - name: Limpa iDocuments 
-  hosts: iclinic
+  hosts: all
   gather_facts: false
   tasks:
    - name: Chama o batman pra apagar
