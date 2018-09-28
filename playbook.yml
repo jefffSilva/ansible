@@ -1,0 +1,11 @@
+---
+ # Playbook de exemplo: 
+ - name: Meu primeiro de muitos Playbooks
+   hosts: je 
+
+   tasks: 
+       - name: Vamos garantir que todos os servidores tenham o resolv.conf iguais 
+         copy: src=/opt/files/resolv.conf dest=/etc/resolv.conf
+
+
+

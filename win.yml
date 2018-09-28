@@ -1,0 +1,14 @@
+
+---
+
+- name: instalacao windows update
+  hosts: all
+  gather_facts: false
+
+- name: Atualizacao de Securanca 
+  win_updates:
+    category_names:
+      - SecurityUpdates
+      - CriticalUpdates
+      - UpdateRollups
+  reboot: yes

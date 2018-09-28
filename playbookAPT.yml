@@ -1,0 +1,11 @@
+---
+ # Playbook de exemplo: 
+ - name: Meu Playbooks de instalação do Debian via APT
+   hosts: web 
+
+   tasks: 
+       - name: Vamos garantir que todos os servidores Debian tenham o pacote bb instalado 
+         apt: name=bb update_cache=yes state=present
+
+
+

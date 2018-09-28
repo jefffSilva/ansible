@@ -1,0 +1,9 @@
+- name: Install cCleaner
+  hosts: win
+  win_package:
+    path: \\repositorioti\dados\SOFTWARES\SEGURANCA\LIMPEZA\ccsetup526.exe
+    product_id: cCleaner
+    arguments: /S
+    state: present
+    user_name: cdb\alex.silva
+    password: '@@extremis007@@'

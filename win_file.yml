@@ -1,0 +1,4 @@
+hosts: win
+   win_file:
+     path: C:\install
+     state: directory 

@@ -1,0 +1,6 @@
+- hosts: iclinic
+  tasks:
+  - name: Copia arquivo  
+    win_copy:
+      src: ../limpa.ps1
+      dest: c:\limpa.ps1

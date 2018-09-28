@@ -1,0 +1,10 @@
+---
+ # Playbook de exemplo: 
+ - name: Meu Segundo de muitos Playbooks
+   hosts: all 
+
+   tasks: 
+       - name: Vamos garantir que todos os servidores Debian tenham o pacote bb instalado 
+         package: name=wget  state=present
+
+

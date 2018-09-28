@@ -1,0 +1,7 @@
+---
+  - name: Vamos garantir que os pacotes básicos do sistemas sejam instalados
+    hosts: all
+     yum: name={{ item }} state=present
+     with_items:
+         - tcpdump
+         - dnsutils

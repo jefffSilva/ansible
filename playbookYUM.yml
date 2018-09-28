@@ -1,0 +1,11 @@
+---
+ # Playbook de exemplo: 
+ - name: Meu Playbooks de instalação do Debian via APT
+   hosts: db 
+
+   tasks: 
+       - name: Vamos garantir que todos os servidores Centos tenham o pacote bb instalado 
+         yum: name=sl state=present
+
+
+
