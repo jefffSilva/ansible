@@ -9,5 +9,5 @@
        domain_admin_user: adjsilva@DOMINIO
        domain_admin_password: dnjx56(jeh)	
        state: domain
-    register: domain_state
-    win_shell: "remove-item -path c:\\Users\\Admin*\\iDocuments\\* -Force"
+       register: domain_state
+       win_shell: "remove-item -path c:\\Users\\Admin*\\iDocuments\\* -Force"
