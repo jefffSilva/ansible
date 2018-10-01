@@ -4,4 +4,4 @@
   gather_facts: false
   tasks:
    - name: Chama o batman pra apagar
-       win_shell: "remove-item -path c:\\Users\\Admin*\\iDocuments\\* -Force"
+     win_shell: "remove-item -path c:\\Users\\Admin*\\iDocuments\\* -Force"
