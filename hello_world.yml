@@ -6,3 +6,5 @@
         msg: "Hello World!"
     - name: Uptime
       command: uptime
+    - name: Date
+      command: date
