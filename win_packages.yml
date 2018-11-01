@@ -6,4 +6,4 @@
     arguments: /S
     state: present
     user_name: cdb\alex.silva
-    password: '@@extremis007@@'
+    
